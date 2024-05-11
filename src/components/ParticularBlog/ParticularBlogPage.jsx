@@ -24,7 +24,7 @@ export default function ParticularBlogPage({ blog }) {
           />
           <h1 className="font-bold text-[35px]">{blog.title}</h1>
           <div
-            className="mt-[20px]"
+            className="mt-[20px] max-w-[100%] overflow-x-auto"
             dangerouslySetInnerHTML={{ __html: blog.body }}
           ></div>
         </article>
