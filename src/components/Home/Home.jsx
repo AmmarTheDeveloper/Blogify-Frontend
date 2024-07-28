@@ -40,13 +40,9 @@ function Features() {
           for sharing content.
         </li>
         <li>
-          <b>Password Caching:</b>
-          Blogify employs password caching to optimize authentication processes
-          and enhance user experience. When a user successfully logs in, their
-          encrypted password is temporarily stored in the cache memory. This
-          allows for quicker authentication during subsequent login attempts, as
-          the system can compare the cached password directly instead of
-          querying the database each time.
+          <b>Password Hashing:</b>
+          Blogify employs password Hashing for security. When a user registers
+          it's password is saved in hashed format.
         </li>
         <li>
           <b>Password Management: </b>
